@@ -1,7 +1,7 @@
 {
   "name": "kuaizi-session",
   "version": "1.0.0",
-  "description": "一个筷子的Glove，用来搞会话",
+  "description": "web 后端的会话管理",
   "main": "src/index.js",
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
     "url": "https://github.com/daGaiGuanYu/kuaizi-session/issues"
   },
   "homepage": "https://github.com/daGaiGuanYu/kuaizi-session#readme",
-  "dependencies": {}
+  "dependencies": {
+    "cookie": ">= 0.4.1",
+    "simple-unique-string": ">= 1.0.1"
+  }
 }

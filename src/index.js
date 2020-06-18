@@ -1,5 +1,6 @@
 require('./persistence/index')
 
 module.exports = {
-  configuration: require('./cfg')
+  configuration: require('./cfg/index'),
+  getSession: require('./get-session/index')
 }

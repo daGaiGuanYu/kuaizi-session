@@ -1,4 +1,4 @@
 const { Server } = require('kuaizi')
-const session = require('../../src/index')
+const { configuration, getSession } = require('../../src/index')
 
 Server.start()
