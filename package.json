@@ -1,0 +1,23 @@
+{
+  "name": "kuaizi-session",
+  "version": "1.0.0",
+  "description": "一个筷子的Glove，用来搞会话",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daGaiGuanYu/kuaizi-session.git"
+  },
+  "keywords": [
+    "session",
+    "kuaizi"
+  ],
+  "author": "gy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daGaiGuanYu/kuaizi-session/issues"
+  },
+  "homepage": "https://github.com/daGaiGuanYu/kuaizi-session#readme"
+}

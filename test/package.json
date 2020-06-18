@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "nodemon src/index"
+  },
+  "dependencies": {
+    "kuaizi": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
