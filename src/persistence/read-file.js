@@ -1,6 +1,5 @@
 const FS = require('fs')
-
-const path = './data'
+const path = require('./session-file-path')
 
 module.exports = function(){
   console.log('读取会话信息...')

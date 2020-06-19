@@ -1,4 +1,4 @@
 node_modules
 .DS_Store
 dist
-persistence/data
+src/persistence/data
