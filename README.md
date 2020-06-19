@@ -1,6 +1,6 @@
 # kuaizi-session
 [node](https://nodejs.org/en/) web 后端的会话管理  
-跟筷子没有依赖关系，只是理念一致  
+跟[筷子](https://github.com/daGaiGuanYu/kuaizi)没有依赖关系，只是理念一致  
 
 # 使用
 ## 安装
@@ -11,7 +11,7 @@ npm install kuaizi-session
 ### 在筷子中的应用
 ```javascript
 const { Server, HandleRequest } = require('kuaizi')
-const { getSession } = require('../../src/index')
+const { getSession } = require('kuaizi-session')
 
 Server.start()
 
@@ -33,7 +33,7 @@ HandleRequest.get('/who', ctx => {
 ### 原生应用
 ```javascript
 const Http = require('http')
-const { getSession } = require('../../src/index')
+const { getSession } = require('kuaizi-session')
 
 Http.createServer( (req, res) => {
   let session = getSession(req, res)
