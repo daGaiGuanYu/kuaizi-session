@@ -11,6 +11,7 @@ module.exports = function(){
   if(data) return data
   rawData = readFile()
   check(rawData) // 去掉过期的会话
+  
   return data = new Proxy(rawData, {
     get(rawData, token){ // 用 token 获取会话数据
       if(!token||!rawData[token]) return
