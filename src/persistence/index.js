@@ -1,5 +1,6 @@
 // @ts-check
-const cfg = require('../../cfg/index')
+const FS = require('fs')
+const cfg = require('../cfg/index')
 const readFile = require('./read-file')
 const check = require('./check')
 
@@ -32,3 +33,10 @@ module.exports = function(){
     }
   })
 }
+
+process.on('exit', () => { // 程序结束时，数据持久化
+  FS.writeFileSync('./data', JSON.stringify(data))
+})
+const exit = () => process.exit()
+process.on('SIGUSR2', exit) // nodemon
+process.on('SIGINT', exit) // ctrl+c

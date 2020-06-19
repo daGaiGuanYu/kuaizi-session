@@ -1,7 +1,7 @@
 const Cookie = require('cookie')
 const getUniqueString = require('simple-unique-string')
 
-const { read } = require('../persistence/read/index')
+const read = require('../persistence/index')
 const cfg = require('../cfg/index')
 
 const data = read()

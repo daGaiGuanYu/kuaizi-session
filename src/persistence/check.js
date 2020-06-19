@@ -1,4 +1,4 @@
-const cfg = require('../../cfg/index')
+const cfg = require('../cfg/index')
 
 // 去掉过期的会话
 module.exports = function(data){
