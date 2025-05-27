@@ -1,6 +1,6 @@
 # kuaizi-session
 [node](https://nodejs.org/en/) web 后端的会话管理  
-跟[筷子](https://github.com/daGaiGuanYu/kuaizi)没有依赖关系，只是理念一致  
+跟[筷子](https://github.com/daGaiGuanYu/kuaizi)没有依赖关系，只是理念一致  需要注意
 
 # 使用
 ## 安装
